@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.tab-list {
+  list-style-type: none;
+}
+.button {
+  color: #7d8794;
+  border: none;
+  border-bottom: 1px solid #dfe2e5;
+  font-size: 14px;
+  width: 68px;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 3px solid #2563eb;
+}

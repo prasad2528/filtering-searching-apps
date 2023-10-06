@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.apps-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  height: 180px;
+  max-width: 150px;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: #fff;
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px;
+  box-shadow: 0px 5px 16px 0 #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.apps-list:hover {
+  transform: scale(0.9);
+}
+.app-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
